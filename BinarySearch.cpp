@@ -54,7 +54,7 @@ void bubbleSortArray()
 void display()
 {
     cout << "\n========================================\n";
-    cout << "        Elemen Array Setelah Diurutkan        \n";
+    cout << "        Elemen Array Setelah Diurutkan (Asc)       \n";
     cout << "\n========================================\n";
 
     for (int i = 0; i < npanjang; i++)
@@ -63,3 +63,4 @@ void display()
     }
     cout << endl;
 }
+
