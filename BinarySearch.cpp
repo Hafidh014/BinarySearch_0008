@@ -50,3 +50,16 @@ void bubbleSortArray()
         pass++;
     } while (pass <= npanjang - 1);
 }
+
+void display()
+{
+    cout << "\n========================================\n";
+    cout << "        Elemen Array Setelah Diurutkan        \n";
+    cout << "\n========================================\n";
+
+    for (int i = 0; i < npanjang; i++)
+    {
+        cout << element[i] << " ";
+    }
+    cout << endl;
+}
